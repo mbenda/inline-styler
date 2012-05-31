@@ -83,7 +83,7 @@ class Conversion:
 		compliance=dict()
 		
 		#load CSV containing css property client support into dict
-		mycsv = csv.DictReader(open(os.path.join(settings.FILEROOT, "css_compliance.csv")), delimiter=',')
+		mycsv = csv.DictReader(open(os.path.join(settings.INLINE_STYLER_FILEROOT, "css_compliance.csv")), delimiter=',')
 		for row in mycsv:
 			#count clients so we can calculate an overall support percentage later
 			clientCount=len(row)

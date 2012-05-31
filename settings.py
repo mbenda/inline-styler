@@ -1,8 +1,8 @@
 # Django settings for inlinestylr project.
 import os, sys
 
-FILEROOT = os.path.dirname(__file__)
-STATICROOT = os.path.join(FILEROOT, "static")
+INLINE_STYLER_FILEROOT = os.path.dirname(__file__)
+STATICROOT = os.path.join(INLINE_STYLER_FILEROOT, "static")
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
